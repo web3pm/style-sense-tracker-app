@@ -1,7 +1,7 @@
 
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Gallery, Plus } from "lucide-react";
+import { ImageIcon, Plus } from "lucide-react";
 
 const lookbookEntries = [
   { id: 1, title: "Summer Collection", date: "June 2023", image: "/placeholder.svg" },
@@ -39,7 +39,7 @@ const Lookbook = () => {
                 </div>
               </div>
               <Button size="sm" variant="secondary" className="absolute top-3 right-3 gap-1">
-                <Gallery className="h-4 w-4" />
+                <ImageIcon className="h-4 w-4" />
                 <span>View</span>
               </Button>
             </div>

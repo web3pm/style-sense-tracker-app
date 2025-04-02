@@ -1,16 +1,16 @@
 
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Plus, Shirt, Pants, Tag, Shoe } from "lucide-react";
+import { Plus, Shirt, Tag, Footprints } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
 
 // Sample categories data
 const categories = [
   { id: 1, name: "Tops", count: 15, icon: Shirt, color: "bg-blue-100 text-blue-500" },
-  { id: 2, name: "Bottoms", count: 10, icon: Pants, color: "bg-green-100 text-green-500" },
+  { id: 2, name: "Bottoms", count: 10, icon: Tag, color: "bg-green-100 text-green-500" },
   { id: 3, name: "Dresses", count: 5, icon: Tag, color: "bg-purple-100 text-purple-500" },
   { id: 4, name: "Outerwear", count: 8, icon: Tag, color: "bg-amber-100 text-amber-500" },
-  { id: 5, name: "Shoes", count: 12, icon: Shoe, color: "bg-red-100 text-red-500" },
+  { id: 5, name: "Shoes", count: 12, icon: Footprints, color: "bg-red-100 text-red-500" },
   { id: 6, name: "Accessories", count: 20, icon: Tag, color: "bg-pink-100 text-pink-500" }
 ];
 
